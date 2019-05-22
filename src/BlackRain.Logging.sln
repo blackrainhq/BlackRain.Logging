@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackRain.Logging", "BlackRain.Logging\BlackRain.Logging.csproj", "{5C3A32B7-42CB-46F9-BAEB-362BCADED1AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackRain.Logging", "BlackRain.Logging\BlackRain.Logging.csproj", "{5C3A32B7-42CB-46F9-BAEB-362BCADED1AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{90E1A970-CE88-458D-A3F2-5D21795810CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackRain.Logging.Tests", "BlackRain.Logging.Tests\BlackRain.Logging.Tests.csproj", "{A0DC236E-27EF-4458-980F-38612317801B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{5C3A32B7-42CB-46F9-BAEB-362BCADED1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C3A32B7-42CB-46F9-BAEB-362BCADED1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C3A32B7-42CB-46F9-BAEB-362BCADED1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DC236E-27EF-4458-980F-38612317801B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DC236E-27EF-4458-980F-38612317801B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DC236E-27EF-4458-980F-38612317801B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DC236E-27EF-4458-980F-38612317801B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0DC236E-27EF-4458-980F-38612317801B} = {90E1A970-CE88-458D-A3F2-5D21795810CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08A5F52C-4368-487C-BB84-B16BC58FC727}
