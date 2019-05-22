@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>BlackRain</Authors>
+    <Description>https://github.com/blackrainhq/BlackRain.Logging.git</Description>
+    <PackageProjectUrl>https://github.com/blackrainhq/BlackRain.Logging</PackageProjectUrl>
+    <PackageIconUrl>https://avatars1.githubusercontent.com/u/45467978</PackageIconUrl>
+    <RepositoryUrl>https://github.com/blackrainhq/BlackRain.Logging</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>logging, microsoft.extensions.logging, file, filelogging</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>BlackRain.Logging.key.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
